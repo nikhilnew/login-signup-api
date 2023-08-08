@@ -25,7 +25,7 @@ exports.register = async (req, res, next) => {
     }
     //-------------------------------------------------------------------------------------------------------
     const hashPass = await bcrypt.hash(req.body.Password, 12);
-    const [rows] = await conn.execute('call sys.Ragistration (?,?,?,?)',
+    const [rows] = await conn.execute('call sendquickmail_db.Ragistration (?,?,?,?)',
 
       [
 
