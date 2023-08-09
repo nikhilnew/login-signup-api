@@ -60,7 +60,7 @@ exports.register = async (req, res, next) => {
         // ------------------------Html Code Started-------------------------------------------
         html: "Hii" + " " + req.body.Name + "," + "<br>" +
 
-          "<br>This is a Registered details that has to be filled by Zoho Campaigns.<br>" +
+          "<br>This is a Registered details that has to be filled by Nikhil'team.<br>" +
 
           "<br>Please find the Login Credentials below for completing your Registration Process:<br>" +
 
@@ -72,7 +72,7 @@ exports.register = async (req, res, next) => {
 
 
           "<br>Thanks & Regards,<br>" +
-          "Maneesh Yadav<br>"
+          "Nikhil Kurmi<br>"
 
       };
       transporter.sendMail(mailOptions, function (error, info) {
